@@ -7,6 +7,6 @@ if len(args) < 2:
             pass
         else:
             print(file)
-elif args[1] == '-l':
+elif args[1] == '-a':
     for f in os.listdir("."):
         print(f)
